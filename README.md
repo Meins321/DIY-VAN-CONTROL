@@ -33,6 +33,13 @@ Quick Start - Use Ready Image:
 
 
 
+todo: 
+- china diesel heater protocol integration
+- easy connect pcb, with waveshare 8 relais pcb
+- raspberry pi hat pcb
+
+
+
   
 
   
