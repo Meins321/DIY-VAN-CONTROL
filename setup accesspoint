@@ -27,6 +27,10 @@ sudo systemctl restart nginx
 we have changed gt.wlan to pekaway.wlan, if you are connect you can reach the dashboard there. 
 
 
+wifikey: pekawayYES
+ssid:pekwaDIYcontrol
+
+
 
 
 
