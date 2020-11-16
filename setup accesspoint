@@ -12,7 +12,7 @@ sudo nano /etc/nginx/sites-available/1pekway
 
 server {
 listen 80;
-server_name pkw.wlan ;
+server_name peka.way ;
 
 location / {
 proxy_pass http://127.0.0.1:1880/ui/;
