@@ -1,0 +1,38 @@
+follow these steps:
+https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
+
+after that install 
+nginx for forwarding 
+https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
+
+setup nginx 
+////
+create new file 
+sudo nano /etc/nginx/sites-available/1pekway
+
+server {
+listen 80;
+server_name pkw.wlan ;
+
+location / {
+proxy_pass http://127.0.0.1:1880/ui/;
+}
+}
+
+
+restart nginx
+sudo systemctl restart nginx
+
+
+we have changed gt.wlan to pekaway.wlan, if you are connect you can reach the dashboard there. 
+
+
+
+
+
+
+
+
+
+
+
