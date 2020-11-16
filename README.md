@@ -11,8 +11,20 @@ is working:
 - Webasto - W-bus integration. 
 
 
-Quick Start. 
+Quick Start. - Self install
 1. Install Node.js & Node-red
 2. Import the MainFlow
 3. Setup your ports. Setup your modules.
-4. Import the modules you want to use
+4. Import the flows
+5. Toggle all Flows you don´t use to inactive
+6. install the used nodes:
+  - node-red-contrib-ads1x15
+  - node-red-contrib-binary
+  - node-red-contrib-ds18b20-sensor
+  - ncd-red-comm 
+  
+  
+
+  
+
+
