@@ -24,12 +24,16 @@ Quick Start. - Self install
   - ncd-red-comm 
   
   
+  
+  
 Quick Start - Use Ready Image: 
 - burn our image to sd - recommend https://www.balena.io/etcher/
 - put it in your raspberry and you are ready
 - connect to wifi pekawayDIYcontrol - pw: pekawayYES
 - dashboard: http://peka.way
 - Node-red config board - http://192.168.4.1:1880
+
+Image: http://pekaway.de/pekaway_control.zip
 
 
 
