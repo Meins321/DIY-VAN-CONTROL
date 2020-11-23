@@ -34,13 +34,17 @@ Quick Start - Use Ready Image:
 - Node-red config board - http://192.168.4.1:1880
 
 Image: http://pekaway.de/pekaway_control.zip
+- version 0.0.2
 
 
 
-todo: 
+next: 
 - china diesel heater protocol integration
 - easy connect pcb, with waveshare 8 relais pcb
 - raspberry pi hat pcb
+- peacefair rs485 shunt
+- daly/heyo BMS integration
+
 
 
 
