@@ -27,7 +27,7 @@ Quick Start. - Self install
   
   
 Quick Start - Use Ready Image: 
-- burn our image to sd - recommend https://www.balena.io/etcher/
+- burn our image to sd - recommend Win32 Disk Imager
 - put it in your raspberry and you are ready
 - connect to wifi pekawayDIYcontrol - pw: pekawayYES
 - dashboard: http://peka.way
