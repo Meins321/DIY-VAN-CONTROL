@@ -1,5 +1,5 @@
-10" Nextion display is at baut 38400 connected to node-red 
-the ui is made in Nextion Editor
-You can work on the hmi file do make it the look you want or put the tft file on the a micro SD an update the Nextion directly. 
+10" Nextion display is connected to Node-Red, baudrate 38400
+The UI can be buil with the Nextion Editor (https://nextion.tech/nextion-editor/)
+You can work on our HMI file do make it look the way you want or put the preconfigured TFT file on a micro SD and update the Nextion display. 
 
-more infos soon. 
+More infos and files coming soon. 
