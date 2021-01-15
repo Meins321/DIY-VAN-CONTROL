@@ -34,7 +34,7 @@ Quick Start - Use our preconfigured image:
 - Open the dashboard: http://peka.way
 - Node-red config board - http://192.168.4.1:1880
 
-Image: http://pekaway.de/pekaway_control.zip
+Image: https://pekaway.de/pekaway_control.zip
 - version 0.0.2
 
 
