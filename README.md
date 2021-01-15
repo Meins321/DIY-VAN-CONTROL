@@ -1,11 +1,12 @@
 # DIY-VAN-CONTROL
-Build a Raspberry-Pi/Node-Red Van Control System. 
+Build a Raspberry-Pi/Node-Red Van Control System.
 
 
 This system is based on Node-Red, so it can be used on different platforms. 
+We're mainly talking about a Raspberry Pi  setup here. Since we're using the wifi of the RPI, model 3B or newer is recommended.
 It has a modular flow system. Each flow provides seperate functions. 
 
-already done and working: 
+Already done and working: 
 - Nextion Display
 - DS18b20
 - Webasto W-Bus integration. 
@@ -47,10 +48,5 @@ coming up:
 
 
 
-All 3D-printed parts:
+All 3D-printed parts can be found here:
 https://github.com/pekaway/3d-parts
-  
-
-  
-
-
