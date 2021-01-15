@@ -2,7 +2,7 @@
 Build a Raspberry-Pi/node-Red Van Control System. 
 
 
-This system is based on Node-Red, so it can be used on different plattforms. 
+This system is based on Node-Red, so it can be used on different platforms. 
 It will have a modulare flow system. Each flow provid a seperate function. 
 
 is working: 
@@ -47,7 +47,8 @@ next:
 
 
 
-
+All 3d parts:
+https://github.com/pekaway/3d-parts
   
 
   
