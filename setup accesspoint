@@ -1,42 +1,31 @@
-follow these steps:
+To setup the wifi accesspoint on the RPI follow these steps:
 https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
 
-after that install 
-nginx for forwarding 
+After that install nginx for forwarding: 
 https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md
 
-setup nginx 
+Setup nginx:
 ////
-create new file 
+Create a new file:
 sudo nano /etc/nginx/sites-available/1pekway
 
+Copy the following code into that file:
 server {
-listen 80;
-server_name peka.way ;
+  listen 80;
+  server_name peka.way;
 
-location / {
-proxy_pass http://127.0.0.1:1880/ui/;
+  location / {
+    proxy_pass http://127.0.0.1:1880/ui/;
+  }
 }
-}
 
 
-restart nginx
+Then restart nginx with the command:
 sudo systemctl restart nginx
 
 
-we have changed gt.wlan to pekaway.wlan, if you are connect you can reach the dashboard there. 
+If everything worked out, you can now reach the dashboard by simply browsing to peka.way.
 
-
+Standard wifi access:
 wifikey: pekawayYES
 ssid:pekwaDIYcontrol
-
-
-
-
-
-
-
-
-
-
-
